@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Afrikaans -->
+<resources>
+    <string name="tagline">JOU FIKSHEID. JOU SPILPUNT.</string>
+    <string name="app_version">Weergawe %1$s</string>
+
+    <string name="label_email">E-pos</string>
+    <string name="label_password">Wagwoord</string>
+    <string name="label_confirm_password">Bevestig wagwoord</string>
+    <string name="label_full_name">Volle naam</string>
+    <string name="label_age">Ouderdom</string>
+    <string name="label_fitness_level">Fiksheidsvlak</string>
+    <string name="hint_password_rules">Minstens 8 karakters, met \'n letter en \'n syfer</string>
+    <string name="forgot_password">Wagwoord vergeet?</string>
+    <string name="btn_login">Teken in</string>
+    <string name="or">OF</string>
+    <string name="btn_google_sso">Gaan voort met Google</string>
+    <string name="link_create_account">Nuut by FitHub? Skep \'n rekening</string>
+    <string name="register_title">Skep rekening</string>
+    <string name="register_subtitle">Sluit by FitHub aan en begin jou fiksheidsreis</string>
+    <string name="btn_create_account">Skep rekening</string>
+    <string name="link_have_account">Het jy reeds \'n rekening? Teken in</string>
+    <string name="cd_toggle_password">Wys of versteek wagwoord</string>
+    <string name="level_beginner">Beginner</string>
+    <string name="level_intermediate">Intermediêr</string>
+    <string name="level_advanced">Gevorderd</string>
+    <string name="info_reset_sent">\'n Skakel om jou wagwoord terug te stel is na jou e-pos gestuur.</string>
+
+    <string name="error_fill_all">Vul asseblief al die velde in.</string>
+    <string name="error_invalid_email">Voer asseblief \'n geldige e-posadres in.</string>
+    <string name="error_invalid_name">Voer asseblief jou naam in (2–50 letters).</string>
+    <string name="error_weak_password">Wagwoord moet minstens 8 karakters hê en \'n letter en \'n syfer insluit.</string>
+    <string name="error_password_mismatch">Wagwoorde stem nie ooreen nie.</string>
+    <string name="error_invalid_age">Voer asseblief \'n ouderdom tussen 13 en 100 in.</string>
+    <string name="error_invalid_goal">Treedoelwit moet tussen 500 en 100 000 wees.</string>
+    <string name="error_invalid_credentials">Verkeerde e-pos of wagwoord.</string>
+    <string name="error_email_in_use">\'n Rekening met hierdie e-pos bestaan reeds.</string>
+    <string name="error_too_many_requests">Te veel pogings. Wag asseblief \'n oomblik en probeer weer.</string>
+    <string name="error_network">Geen internetverbinding nie. Probeer asseblief weer.</string>
+    <string name="error_offline_no_account">Jy is aflyn. Teken een keer aanlyn op hierdie toestel in om aflyn aanmelding moontlik te maak.</string>
+    <string name="error_generic">Iets het verkeerd gegaan. Probeer asseblief weer.</string>
+    <string name="error_reset_need_email">Voer jou e-pos hierbo in en tik dan \"Wagwoord vergeet?\".</string>
+    <string name="error_sso_not_configured">Google-aanmelding is nog nie opgestel nie. Aktiveer dit in die Firebase-konsole.</string>
+    <string name="error_sso_no_account">Geen Google-rekening op hierdie toestel nie. Voeg een by in Instellings.</string>
+    <string name="error_sso_failed">Google-aanmelding het misluk. Probeer asseblief weer.</string>
+    <string name="error_location_permission">Liggingtoestemming is nodig om jou aktiwiteit na te spoor.</string>
+    <string name="error_save_failed">Kon nie die oefensessie stoor nie. Probeer asseblief weer.</string>
+
+    <string name="tab_home">Tuis</string>
+    <string name="tab_exercises">Oefeninge</string>
+    <string name="tab_history">Geskiedenis</string>
+    <string name="tab_settings">Instellings</string>
+    <string name="title_exercises">Oefeningbiblioteek</string>
+    <string name="title_history">Oefengeskiedenis</string>
+    <string name="title_settings">Instellings</string>
+    <string name="title_tracking">Lewendige aktiwiteitsnasporing</string>
+    <string name="offline_banner">Jy is aflyn — veranderinge is gestoor en sal later sinkroniseer.</string>
+
+    <string name="welcome_name">Welkom terug, %1$s!</string>
+    <string name="todays_progress">Vandag se vordering</string>
+    <string name="metric_steps">Treë</string>
+    <string name="metric_steps_goal">Doelwit: %1$d treë</string>
+    <string name="metric_distance">Afstand</string>
+    <string name="metric_active_time">Aktiewe tyd</string>
+    <string name="metric_points">Punte</string>
+    <string name="metric_streak">Reeks</string>
+    <string name="metric_weather">Weer</string>
+    <string name="metric_pending_sync">Wag om te sinkroniseer</string>
+    <string name="pending_sync_hint">Oefensessies wat aflyn gestoor is, sal outomaties opgelaai word.</string>
+    <string name="minutes_short">%1$d min</string>
+    <string name="points_short">%1$d punte</string>
+    <plurals name="streak_days">
+        <item quantity="one">%d dag</item>
+        <item quantity="other">%d dae</item>
+    </plurals>
+    <string name="step_sensor_missing">(Treesensor nie op hierdie toestel gevind nie)</string>
+    <string name="btn_start_activity">Begin aktiwiteit</string>
+    <string name="weather_loading">Laai weer…</string>
+    <string name="weather_unavailable">Weer nie beskikbaar nie</string>
+    <string name="weather_clear">Helder</string>
+    <string name="weather_cloudy">Gedeeltelik bewolk</string>
+    <string name="weather_fog">Mistig</string>
+    <string name="weather_rain">Reënerig</string>
+    <string name="weather_snow">Sneeu</string>
+    <string name="weather_storm">Donderstorm</string>
+
+    <string name="type_run">Hardloop</string>
+    <string name="type_walk">Stap</string>
+    <string name="type_cycle">Fiets</string>
+    <string name="duration">Duur</string>
+    <string name="gps_status">GPS-status</string>
+    <string name="gps_waiting">wag…</string>
+    <string name="latitude">Breedtegraad: %1$s</string>
+    <string name="longitude">Lengtegraad: %1$s</string>
+    <string name="gps_active">GPS aktief</string>
+    <string name="gps_inactive">GPS nie beskikbaar nie</string>
+    <string name="btn_stop_save">Stop en stoor</string>
+    <string name="btn_discard">Gooi weg</string>
+    <string name="btn_keep_going">Gaan voort</string>
+    <string name="dialog_discard_title">Gooi hierdie aktiwiteit weg?</string>
+    <string name="dialog_discard_body">Jou vordering vir hierdie aktiwiteit sal nie gestoor word nie.</string>
+    <string name="workout_too_short">Aktiwiteit was te kort om te stoor.</string>
+
+    <string name="search_exercises">Soek oefeninge of spiere</string>
+    <string name="cd_clear">Maak skoon</string>
+    <string name="cd_refresh">Herlaai</string>
+    <string name="filter_all">Alles</string>
+    <string name="exercises_cached">Wys gestoorde oefeninge. Tik herlaai vir die nuutste.</string>
+    <string name="exercises_offline_cache">Aflyn — wys gestoorde oefeninge.</string>
+    <string name="exercises_load_failed">Kon nie oefeninge laai nie. Gaan jou verbinding na en probeer weer.</string>
+    <string name="exercises_no_match">Geen oefeninge pas by jou soektog nie.</string>
+    <string name="exercises_count">%1$d oefeninge</string>
+    <string name="wger_credit">Oefeningdata van wger.de (CC-BY-SA)</string>
+    <string name="label_category">Kategorie</string>
+    <string name="label_muscles">Spiere</string>
+    <string name="label_equipment">Toerusting</string>
+    <string name="no_description">Geen beskrywing beskikbaar nie.</string>
+    <string name="btn_retry">Probeer weer</string>
+    <string name="btn_close">Maak toe</string>
+
+    <string name="history_empty">Nog geen oefensessies nie. Begin \'n aktiwiteit by Tuis.</string>
+    <string name="sync_all_done">Alle oefensessies gesinkroniseer</string>
+    <string name="sync_pending_count">%1$d oefensessie(s) wag om te sinkroniseer</string>
+    <string name="sync_last">Laas gesinkroniseer %1$s</string>
+    <string name="sync_never">Nog nie gesinkroniseer nie</string>
+    <string name="sync_waiting_connection">Sal sinkroniseer wanneer jy weer aanlyn is</string>
+    <string name="sync_offline_login">Aflyn aanmelding — teken weer aanlyn in om te sinkroniseer</string>
+    <string name="btn_sync_now">Sinkroniseer</string>
+    <string name="status_synced">Gesinkroniseer</string>
+    <string name="status_pending">Wag om te sinkroniseer</string>
+    <string name="btn_delete">Skrap</string>
+    <string name="btn_cancel">Kanselleer</string>
+    <string name="dialog_delete_title">Skrap oefensessie?</string>
+    <string name="dialog_delete_body">Dit verwyder die oefensessie van hierdie toestel en die wolk.</string>
+
+    <string name="section_profile">Profiel</string>
+    <string name="section_preferences">Voorkeure</string>
+    <string name="section_language">Taal</string>
+    <string name="section_account">Rekening</string>
+    <string name="signed_in_email">Aangemeld met e-pos</string>
+    <string name="signed_in_google">Aangemeld met Google</string>
+    <string name="label_step_goal">Daaglikse treedoelwit</string>
+    <string name="hint_step_goal">Tussen 500 en 100 000</string>
+    <string name="btn_save">Stoor veranderinge</string>
+    <string name="settings_saved">Instellings gestoor.</string>
+    <string name="pref_notifications">Kennisgewings</string>
+    <string name="pref_notifications_desc">Oefenwaarskuwings, doelwitherinneringe en FitHub-opdaterings</string>
+    <string name="pref_dark_mode">Donker modus</string>
+    <string name="btn_change_password">Verander wagwoord</string>
+    <string name="btn_logout">Teken uit</string>
+    <string name="dialog_logout_title">Teken uit?</string>
+    <string name="dialog_logout_body">Oefensessies wat nie gesinkroniseer is nie, bly op hierdie toestel totdat jy weer inteken.</string>
+
+    <string name="channel_alerts_name">Aktiwiteitswaarskuwings</string>
+    <string name="channel_alerts_desc">Waarskuwings vir gestoorde oefensessies, sinkronisering en doelwitte</string>
+    <string name="channel_push_name">FitHub-opdaterings</string>
+    <string name="channel_push_desc">Intydse boodskappe van FitHub</string>
+    <string name="notif_workout_saved_title">Oefensessie gestoor 💪</string>
+    <string name="notif_workout_saved_body">Mooi so! Jy het %1$d punte verdien.</string>
+    <string name="notif_sync_title">Na die wolk gesinkroniseer</string>
+    <plurals name="notif_sync_body">
+        <item quantity="one">%d oefensessie opgelaai.</item>
+        <item quantity="other">%d oefensessies opgelaai.</item>
+    </plurals>
+    <string name="notif_goal_title">Doelwit bereik! 🎉</string>
+    <string name="notif_goal_body">Jy het jou daaglikse doelwit van %1$d treë bereik.</string>
+</resources>

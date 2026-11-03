@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- isiZulu -->
+<resources>
+    <string name="tagline">UKUQINA KWAKHO. INDAWO YAKHO.</string>
+    <string name="app_version">Inguqulo %1$s</string>
+
+    <string name="label_email">I-imeyili</string>
+    <string name="label_password">Iphasiwedi</string>
+    <string name="label_confirm_password">Qinisekisa iphasiwedi</string>
+    <string name="label_full_name">Igama eliphelele</string>
+    <string name="label_age">Iminyaka</string>
+    <string name="label_fitness_level">Izinga lokuqina</string>
+    <string name="hint_password_rules">Okungenani izinhlamvu ezi-8, kuhlanganise uhlamvu nenombolo</string>
+    <string name="forgot_password">Ukhohlwe iphasiwedi?</string>
+    <string name="btn_login">Ngena</string>
+    <string name="or">NOMA</string>
+    <string name="btn_google_sso">Qhubeka nge-Google</string>
+    <string name="link_create_account">Umusha ku-FitHub? Vula i-akhawunti</string>
+    <string name="register_title">Vula i-akhawunti</string>
+    <string name="register_subtitle">Joyina i-FitHub uqale uhambo lwakho lokuqina</string>
+    <string name="btn_create_account">Vula i-akhawunti</string>
+    <string name="link_have_account">Usunayo i-akhawunti? Ngena</string>
+    <string name="cd_toggle_password">Bonisa noma fihla iphasiwedi</string>
+    <string name="level_beginner">Osaqalayo</string>
+    <string name="level_intermediate">Ophakathi</string>
+    <string name="level_advanced">Othuthukile</string>
+    <string name="info_reset_sent">Isixhumanisi sokusetha kabusha iphasiwedi sithunyelwe ku-imeyili yakho.</string>
+
+    <string name="error_fill_all">Sicela ugcwalise zonke izikhala.</string>
+    <string name="error_invalid_email">Sicela ufake ikheli le-imeyili elivumelekile.</string>
+    <string name="error_invalid_name">Sicela ufake igama lakho (izinhlamvu ezi-2 kuya kwezingama-50).</string>
+    <string name="error_weak_password">Iphasiwedi kumele ibe nezinhlamvu okungenani ezi-8 futhi ibe nohlamvu nenombolo.</string>
+    <string name="error_password_mismatch">Amaphasiwedi awafani.</string>
+    <string name="error_invalid_age">Sicela ufake iminyaka ephakathi kuka-13 no-100.</string>
+    <string name="error_invalid_goal">Umgomo wezinyathelo kumele ube phakathi kuka-500 no-100 000.</string>
+    <string name="error_invalid_credentials">I-imeyili noma iphasiwedi ayilungile.</string>
+    <string name="error_email_in_use">Kakade ikhona i-akhawunti esebenzisa le imeyili.</string>
+    <string name="error_too_many_requests">Imizamo miningi kakhulu. Sicela ulinde kancane bese uzama futhi.</string>
+    <string name="error_network">Akukho ukuxhumana ne-inthanethi. Sicela uzame futhi.</string>
+    <string name="error_offline_no_account">Awuxhunyiwe ku-inthanethi. Ngena ku-inthanethi kanye kule divayisi ukuze ukwazi ukungena ungaxhunyiwe.</string>
+    <string name="error_generic">Kukhona okungahambanga kahle. Sicela uzame futhi.</string>
+    <string name="error_reset_need_email">Faka i-imeyili yakho ngenhla, bese uthepha \"Ukhohlwe iphasiwedi?\".</string>
+    <string name="error_sso_not_configured">Ukungena nge-Google akukasethwa. Kuvule ku-Firebase console.</string>
+    <string name="error_sso_no_account">Ayikho i-akhawunti ye-Google kule divayisi. Engeza eyodwa kuZilungiselelo.</string>
+    <string name="error_sso_failed">Ukungena nge-Google kuhlulekile. Sicela uzame futhi.</string>
+    <string name="error_location_permission">Kudingeka imvume yendawo ukuze kulandelelwe umsebenzi wakho.</string>
+    <string name="error_save_failed">Asikwazanga ukulondoloza ukuzivocavoca. Sicela uzame futhi.</string>
+
+    <string name="tab_home">Ikhaya</string>
+    <string name="tab_exercises">Ukuzivocavoca</string>
+    <string name="tab_history">Umlando</string>
+    <string name="tab_settings">Izilungiselelo</string>
+    <string name="title_exercises">Umtapo wokuzivocavoca</string>
+    <string name="title_history">Umlando wokuzivocavoca</string>
+    <string name="title_settings">Izilungiselelo</string>
+    <string name="title_tracking">Ukulandelela umsebenzi bukhoma</string>
+    <string name="offline_banner">Awuxhunyiwe — izinguquko zilondoloziwe futhi zizovumelaniswa kamuva.</string>
+
+    <string name="welcome_name">Siyakwamukela futhi, %1$s!</string>
+    <string name="todays_progress">Inqubekela phambili yanamuhla</string>
+    <string name="metric_steps">Izinyathelo</string>
+    <string name="metric_steps_goal">Umgomo: izinyathelo ezingu-%1$d</string>
+    <string name="metric_distance">Ibanga</string>
+    <string name="metric_active_time">Isikhathi sokusebenza</string>
+    <string name="metric_points">Amaphuzu</string>
+    <string name="metric_streak">Uchungechunge</string>
+    <string name="metric_weather">Isimo sezulu</string>
+    <string name="metric_pending_sync">Kulindele ukuvumelaniswa</string>
+    <string name="pending_sync_hint">Ukuzivocavoca okulondolozwe ungaxhunyiwe kuzolayishwa ngokuzenzakalela.</string>
+    <string name="minutes_short">%1$d imiz</string>
+    <string name="points_short">%1$d amaphuzu</string>
+    <plurals name="streak_days">
+        <item quantity="one">%d usuku</item>
+        <item quantity="other">%d izinsuku</item>
+    </plurals>
+    <string name="step_sensor_missing">(Inzwa yezinyathelo ayitholakalanga kule divayisi)</string>
+    <string name="btn_start_activity">Qala umsebenzi</string>
+    <string name="weather_loading">Ilayisha isimo sezulu…</string>
+    <string name="weather_unavailable">Isimo sezulu asitholakali</string>
+    <string name="weather_clear">Kusobala</string>
+    <string name="weather_cloudy">Kunamafu kancane</string>
+    <string name="weather_fog">Kunenkungu</string>
+    <string name="weather_rain">Kuyana</string>
+    <string name="weather_snow">Kuwa iqhwa</string>
+    <string name="weather_storm">Kuyaduma</string>
+
+    <string name="type_run">Ukugijima</string>
+    <string name="type_walk">Ukuhamba</string>
+    <string name="type_cycle">Ibhayisikili</string>
+    <string name="duration">Isikhathi</string>
+    <string name="gps_status">Isimo se-GPS</string>
+    <string name="gps_waiting">kulindiwe…</string>
+    <string name="latitude">I-Latitude: %1$s</string>
+    <string name="longitude">I-Longitude: %1$s</string>
+    <string name="gps_active">I-GPS iyasebenza</string>
+    <string name="gps_inactive">I-GPS ayitholakali</string>
+    <string name="btn_stop_save">Misa bese ulondoloza</string>
+    <string name="btn_discard">Lahla</string>
+    <string name="btn_keep_going">Qhubeka</string>
+    <string name="dialog_discard_title">Lahla lo msebenzi?</string>
+    <string name="dialog_discard_body">Inqubekela phambili yalo msebenzi ngeke ilondolozwe.</string>
+    <string name="workout_too_short">Umsebenzi ubumfushane kakhulu ukuthi ulondolozwe.</string>
+
+    <string name="search_exercises">Sesha ukuzivocavoca noma imisipha</string>
+    <string name="cd_clear">Sula</string>
+    <string name="cd_refresh">Vuselela</string>
+    <string name="filter_all">Konke</string>
+    <string name="exercises_cached">Kubonisa ukuzivocavoca okulondoloziwe. Thepha u-vuselela ukuze uthole okusha.</string>
+    <string name="exercises_offline_cache">Awuxhunyiwe — kubonisa ukuzivocavoca okulondoloziwe.</string>
+    <string name="exercises_load_failed">Asikwazanga ukulayisha ukuzivocavoca. Hlola ukuxhumana kwakho bese uzama futhi.</string>
+    <string name="exercises_no_match">Akukho ukuzivocavoca okufana nosesho lwakho.</string>
+    <string name="exercises_count">Ukuzivocavoca okungu-%1$d</string>
+    <string name="wger_credit">Imininingwane yokuzivocavoca ivela ku-wger.de (CC-BY-SA)</string>
+    <string name="label_category">Isigaba</string>
+    <string name="label_muscles">Imisipha</string>
+    <string name="label_equipment">Izinsiza</string>
+    <string name="no_description">Ayikho incazelo.</string>
+    <string name="btn_retry">Zama futhi</string>
+    <string name="btn_close">Vala</string>
+
+    <string name="history_empty">Akukabikho ukuzivocavoca. Qala umsebenzi eKhaya.</string>
+    <string name="sync_all_done">Konke ukuzivocavoca kuvumelanisiwe</string>
+    <string name="sync_pending_count">Ukuzivocavoca okungu-%1$d kulindele ukuvumelaniswa</string>
+    <string name="sync_last">Kugcine ukuvumelaniswa ngo-%1$s</string>
+    <string name="sync_never">Akukavumelaniswa</string>
+    <string name="sync_waiting_connection">Kuzovumelaniswa uma usuxhunyiwe futhi</string>
+    <string name="sync_offline_login">Ungene ungaxhunyiwe — phinda ungene ku-inthanethi ukuze kuvumelaniswe</string>
+    <string name="btn_sync_now">Vumelanisa</string>
+    <string name="status_synced">Kuvumelanisiwe</string>
+    <string name="status_pending">Kulindele ukuvumelaniswa</string>
+    <string name="btn_delete">Susa</string>
+    <string name="btn_cancel">Khansela</string>
+    <string name="dialog_delete_title">Susa ukuzivocavoca?</string>
+    <string name="dialog_delete_body">Lokhu kususa ukuzivocavoca kule divayisi nasefwini.</string>
+
+    <string name="section_profile">Iphrofayela</string>
+    <string name="section_preferences">Okuthandayo</string>
+    <string name="section_language">Ulimi</string>
+    <string name="section_account">I-akhawunti</string>
+    <string name="signed_in_email">Ungene nge-imeyili</string>
+    <string name="signed_in_google">Ungene nge-Google</string>
+    <string name="label_step_goal">Umgomo wezinyathelo zansuku zonke</string>
+    <string name="hint_step_goal">Phakathi kuka-500 no-100 000</string>
+    <string name="btn_save">Londoloza izinguquko</string>
+    <string name="settings_saved">Izilungiselelo zilondoloziwe.</string>
+    <string name="pref_notifications">Izaziso</string>
+    <string name="pref_notifications_desc">Izexwayiso zokuzivocavoca, izikhumbuzo zomgomo nezibuyekezo ze-FitHub</string>
+    <string name="pref_dark_mode">Imodi emnyama</string>
+    <string name="btn_change_password">Shintsha iphasiwedi</string>
+    <string name="btn_logout">Phuma</string>
+    <string name="dialog_logout_title">Phuma?</string>
+    <string name="dialog_logout_body">Ukuzivocavoca okungakavumelaniswa kuzohlala kule divayisi uze ungene futhi.</string>
+
+    <string name="channel_alerts_name">Izexwayiso zomsebenzi</string>
+    <string name="channel_alerts_desc">Izexwayiso zokulondoloza, zokuvumelanisa nezomgomo</string>
+    <string name="channel_push_name">Izibuyekezo ze-FitHub</string>
+    <string name="channel_push_desc">Imilayezo ye-FitHub ngesikhathi sangempela</string>
+    <string name="notif_workout_saved_title">Ukuzivocavoca kulondoloziwe 💪</string>
+    <string name="notif_workout_saved_body">Wenze kahle! Uthole amaphuzu angu-%1$d.</string>
+    <string name="notif_sync_title">Kuvumelaniswe nefu</string>
+    <plurals name="notif_sync_body">
+        <item quantity="one">Ukuzivocavoca okungu-%d kulayishiwe.</item>
+        <item quantity="other">Ukuzivocavoca okungu-%d kulayishiwe.</item>
+    </plurals>
+    <string name="notif_goal_title">Umgomo ufinyelelwe! 🎉</string>
+    <string name="notif_goal_body">Ufinyelele umgomo wakho wansuku zonke wezinyathelo ezingu-%1$d.</string>
+</resources>
