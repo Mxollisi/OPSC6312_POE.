@@ -1,0 +1,15 @@
+rules_version = '2';
+
+// Paste into Firebase console → Firestore Database → Rules.
+// Each user can only read and write their own profile and workouts.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      match /workouts/{workoutId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+  }
+}
