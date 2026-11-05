@@ -1,5 +1,6 @@
 package com.example.fithub.data.remote
 
+import com.example.fithub.data.WeatherApi
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

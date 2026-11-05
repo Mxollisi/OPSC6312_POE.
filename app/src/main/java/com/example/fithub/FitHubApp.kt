@@ -8,7 +8,6 @@ import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
-import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.launch
 
@@ -31,7 +30,6 @@ class FitHubApp : Application() {
         // Whenever the connection comes back, upload anything saved while offline.
         appScope.launch {
             ServiceLocator.network.isOnline
-                .distinctUntilChanged()
                 .filter { it }
                 .collect {
                     if (ServiceLocator.session.current != null) {
