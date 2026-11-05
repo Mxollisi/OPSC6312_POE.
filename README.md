@@ -67,7 +67,7 @@ Firebase console → Messaging → **Create your first campaign** → Firebase N
 ```
 `.github/workflows/build.yml` runs both on GitHub Actions for every push and uploads the APK and test reports.
 
-## References
+## References list
 
 - Firebase Cloud Messaging. Available at: https://firebase.google.com/docs/cloud-messaging [Accessed 3 November 2026].
 - Firebase Authentication. Available at: https://firebase.google.com/docs/auth/android/start [Accessed 3 November 2026].
